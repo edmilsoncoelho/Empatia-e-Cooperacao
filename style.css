@@ -292,3 +292,10 @@ footer {
         font-size: 2rem;
     }
 }
+
+.post-image {
+    width: 100%;       /* Ocupa toda a largura do card */
+    height: 200px;      /* Mantém a altura fixa que definimos antes */
+    object-fit: cover;  /* Corta a imagem elegantemente para preencher o espaço sem distorcer */
+    display: block;
+}
